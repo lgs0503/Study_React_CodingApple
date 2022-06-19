@@ -1,0 +1,70 @@
+.headerStyle{
+  background-color: black;
+  color: white;
+  padding: 10px 30px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.post{
+  border: 1px solid silver;
+  margin: 10px;
+}
+.postTilte{
+  border-bottom: 1px solid silver;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.postTilte:hover{
+  background-color: rgb(245, 245, 245);
+}
+.postTilte span{
+  float: right;
+}
+.postTilte span button{
+  margin-left:10px;
+  cursor: pointer;
+}
+.postInfo{
+  padding: 10px;
+}
+.postInfo div{
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+.postContent{
+  border-bottom: 1px solid silver;
+  padding: 10px;
+  height: 300px;
+}
+.modal{
+  background-color: rgba(0,0,0,0.5);
+  width: 100%;
+  height: 100%;
+  position:absolute;
+  top:0;
+}
+.postDetail{
+  border: 1px solid silver;
+  margin: 10px;
+  z-index: 100;
+  position:absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  background-color: white;
+}
+
+.show {
+  display: block;
+}
+.hidden {
+  display: none;
+}
+.btnForm{
+  text-align: right;
+  padding: 10px 10px 0 0;
+}
